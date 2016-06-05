@@ -1,0 +1,12 @@
+// JOGEN Smelting Recipe Example:
+
+name "Iron Ingot";
+
+requires {
+  Ore_Iron 1
+}
+produces {
+  Item_IronIngot 1
+}
+
+requiredTemp 1538;
