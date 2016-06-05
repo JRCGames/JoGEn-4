@@ -6,7 +6,8 @@ import jogen.prototypes.world.data.Composition;
 import jogen.prototypes.data.render.RenderClass;
 
 public class Bomb extends Gobject {
-  public Explosive explosive;
+  public Explosive explosive;           // Explosive contains the data to make an explosion. Bomb
+                                        // contains the data to create an explosive game object.
 
   public Bomb(String name, Composition madeOf, RenderClass render, Explosive explosive) {
     this.name = name;
