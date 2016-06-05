@@ -3,6 +3,7 @@ package jogen.prototypes.world;
 import jogen.prototypes.meta.world.character.Name;
 import jogen.prototypes.meta.world.character.Life;
 import jogen.prototypes.meta.world.character.Personality;
+import jogen.prototypes.world.Gobject;
 
 public class Character extends Gobject {
   public Name name;
