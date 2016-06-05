@@ -4,7 +4,7 @@ import jogen.prototypes.meta.world.character.Name;
 import jogen.prototypes.meta.world.character.Life;
 import jogen.prototypes.meta.world.character.Personality;
 
-public class Character {
+public class Character extends Gobject {
   public Name name;
   public Life life;
   public Attributes attributes;
